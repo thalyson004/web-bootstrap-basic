@@ -1,0 +1,117 @@
+
+/* Common tag */
+
+body{
+  font-family: 'Montserrat', 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 1.5;
+}
+
+.big-heading{
+  font-size: 3rem;
+}
+
+.standard-heading{
+    font-size: 2.5rem;
+}
+
+.small-heading{
+  font-size: 1.5rem;
+}
+
+p{
+  color: #8f8f8f;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Title Section */
+#title{
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 3rem;
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 5% 10%;
+}
+
+.navbar-brand{
+    font-family:'Ubuntu', 'Montserrat',  sans-serif;
+    font-size: 2rem;
+}
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item{
+  padding: 0 1rem 0 1rem;
+  font-family: 'Montserrat-light', 'Ubuntu', sans-serif;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.my-dog{
+  width: 17rem;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  top: -20%;
+}
+
+/* Features Section */
+#features{
+  padding: 6rem 0 6rem 0;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+/*Testimonials section*/
+#testimonials{
+  background-color: #ef8172;
+  color: white;
+  position: relative;
+}
+
+.testimonial-profile{
+  border-radius: 50%;
+  height: 8rem;
+}
+
+/*Pricing section*/
+.pricing-row{
+  padding-top: 5rem;
+}
+
+/*cta section*/
+#cta{
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* Footer */
+#footer{
+  padding: 5% 10% 0%;
+}
+
+/*Responsive*/
+@media (max-width:1028px){
+  body{
+    text-align: center;
+  }
+  .my-dog{
+    position: static;
+    right: auto;
+    top: auto;
+    transform: rotate(0deg);
+    padding-top: 5rem;
+  }
+  #features{
+    z-index: 0;
+  }
+}
